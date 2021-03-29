@@ -592,6 +592,9 @@ body {
 .form-btn {
   display: flex;
   align-items: center;
+  align-self: center;
+  /* width: 200px;
+  height: 50px; */
   padding: 10px 29px;
   margin-left: 12px;
   border-radius: 4px;
@@ -797,12 +800,8 @@ body {
 
 /* ==============FORM=============== */
 .form {
-  outline: 1px solid red;
-
   display: flex;
   flex-direction: column;
-
-  /* width: 528px; */
   margin-right: auto;
   margin-left: auto;
 }
